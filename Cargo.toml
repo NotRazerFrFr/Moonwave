@@ -1,0 +1,19 @@
+[package]
+name = "moonwave"
+version = "1.1.2"
+edition = "2024"
+
+[lib]
+name = "moonwave"
+crate-type = ["cdylib"]
+
+[dependencies]
+ndk = "0.7"
+log = "0.4"
+ctor = "0.1"
+android_logger = "0.11"
+jni = "0.21"
+obfstr = "0.4"
+
+[features]
+partyhub = []
